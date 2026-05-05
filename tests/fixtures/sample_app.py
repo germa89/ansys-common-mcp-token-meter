@@ -1,4 +1,5 @@
 """Standalone FastMCP app for CLI and integration testing."""
+
 from fastmcp import FastMCP
 
 app = FastMCP(name="sample-app", instructions="Sample MCP server for testing")
