@@ -1,5 +1,7 @@
 """Allow running as python -m ansys.common.mcp.token_meter."""
+
+import sys
+
 from ansys.common.mcp.token_meter.cli import main
 
-if __name__ == "__main__":
-    raise SystemExit(main())
+sys.exit(main())
